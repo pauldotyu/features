@@ -7,7 +7,7 @@ Adds a SSH server into a container so that you can use an external terminal, sft
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/features/sshd:1": {
+        "ghcr.io/pauldotyu/features/sshd:1": {
             "version": "latest"
         }
 }
@@ -85,4 +85,4 @@ While the some services automates SSH setup (e.g., when using the GitHub CLI for
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/sshd/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/sshd/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
