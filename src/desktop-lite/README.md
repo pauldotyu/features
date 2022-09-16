@@ -7,7 +7,7 @@ Adds a lightweight Fluxbox based desktop to the container that can be accessed u
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/features/desktop-lite:1": {
+        "ghcr.io/pauldotyu/features/desktop-lite:1": {
             "version": "latest"
         }
 }
@@ -91,4 +91,4 @@ That's it!
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/desktop-lite/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/desktop-lite/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
