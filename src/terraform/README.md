@@ -7,7 +7,7 @@ Installs the Terraform CLI and optionally TFLint and Terragrunt. Auto-detects la
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/features/terraform:1": {
+        "ghcr.io/pauldotyu/features/terraform:1": {
             "version": "latest"
         }
 }
@@ -25,4 +25,4 @@ Installs the Terraform CLI and optionally TFLint and Terragrunt. Auto-detects la
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/terraform/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/terraform/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
