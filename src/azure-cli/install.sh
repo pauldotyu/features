@@ -180,14 +180,13 @@ if [ "${use_pip}" = "true" ]; then
     fi
 fi
 
-echo "Azure CLI extensions requested: ${AZ_EXTENSIONS}"
 if [ ${#AZ_EXTENSIONS[@]} -gt 0 ]; then
     echo "Installing Azure CLI extensions: ${AZ_EXTENSIONS}"
     extensions=(`echo ${AZ_EXTENSIONS} | tr ',' ' '`)
     for i in "${extensions[@]}"
     do
         echo "Installing ${i}"
-        # su vscode -c "az extension add --name ${i} -y"
+        su vscode -c "az extension add --name ${i} -y"
     done
 fi
 echo "Done!"
