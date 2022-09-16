@@ -7,7 +7,7 @@
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/features/php:1": {
+        "ghcr.io/pauldotyu/features/php:1": {
             "version": "latest"
         }
 }
@@ -24,4 +24,4 @@
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/php/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/php/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
