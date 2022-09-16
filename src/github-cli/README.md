@@ -7,7 +7,7 @@ Installs the GitHub CLI. Auto-detects latest version and installs needed depende
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/features/github-cli:1": {
+        "ghcr.io/pauldotyu/features/github-cli:1": {
             "version": "latest"
         }
 }
@@ -24,4 +24,4 @@ Installs the GitHub CLI. Auto-detects latest version and installs needed depende
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/github-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/github-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
