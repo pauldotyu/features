@@ -187,7 +187,7 @@ if [ ${#AZ_EXTENSIONS[@]} -gt 0 ]; then
     for i in "${extensions[@]}"
     do
         echo "Installing ${i}"
-        su vscode -c "az extension add --name ${i} -y"
+        su $(getent passwd "1000" | cut -d: -f1) -c "az extension add --name ${i} -y"
     done
 fi
 
