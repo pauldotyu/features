@@ -10,6 +10,7 @@
 set -e
 
 AZ_VERSION=${VERSION:-"latest"}
+AZ_EXTENSIONS=${EXTENSIONS}
 
 MICROSOFT_GPG_KEYS_URI="https://packages.microsoft.com/keys/microsoft.asc"
 AZCLI_ARCHIVE_ARCHITECTURES="amd64"
@@ -179,4 +180,13 @@ if [ "${use_pip}" = "true" ]; then
     fi
 fi
 
+if [ ${#AZ_EXTENSIONS[@]} -gt 0 ]; then
+    echo "Installing Azure CLI extensions: ${AZ_EXTENSIONS}"
+    extensions=(`echo ${AZ_EXTENSIONS} | tr ',' ' '`)
+    for i in "${extensions[@]}"
+    do
+        echo "Installing ${i}"
+        su vscode -c "az extension add --name ${i} -y"
+    done
+fi
 echo "Done!"
