@@ -7,7 +7,7 @@ Installs the oryx CLI
 
 ```json
 "features": {
-        "ghcr.io/devcontainers/features/oryx:1": {
+        "ghcr.io/pauldotyu/features/oryx:1": {
             "version": "latest"
         }
 }
@@ -21,4 +21,4 @@ Installs the oryx CLI
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/oryx/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/oryx/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
