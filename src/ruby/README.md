@@ -7,7 +7,7 @@ Installs Ruby, rvm, rbenv, common Ruby utilities, and needed dependencies.
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/ruby:1": {
+    "ghcr.io/pauldotyu/features/ruby:1": {
         "version": "latest"
     }
 }
@@ -23,4 +23,4 @@ Installs Ruby, rvm, rbenv, common Ruby utilities, and needed dependencies.
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/ruby/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/ruby/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
