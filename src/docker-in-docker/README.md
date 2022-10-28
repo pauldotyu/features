@@ -7,7 +7,7 @@ Create child containers *inside* a container, independent from the host's docker
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/docker-in-docker:1": {
+    "ghcr.io/pauldotyu/features/docker-in-docker:1": {
         "version": "latest"
     }
 }
@@ -27,4 +27,4 @@ Create child containers *inside* a container, independent from the host's docker
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/docker-in-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/docker-in-docker/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
