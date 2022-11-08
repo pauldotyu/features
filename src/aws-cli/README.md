@@ -7,7 +7,7 @@ Installs the AWS CLI along with needed dependencies. Useful for base Dockerfiles
 
 ```json
 "features": {
-    "ghcr.io/devcontainers/features/aws-cli:1": {
+    "ghcr.io/pauldotyu/features/aws-cli:1": {
         "version": "latest"
     }
 }
@@ -23,4 +23,4 @@ Available versions of the AWS CLI can be found here: https://github.com/aws/aws-
 
 ---
 
-_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/devcontainers/features/blob/main/src/aws-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
+_Note: This file was auto-generated from the [devcontainer-feature.json](https://github.com/pauldotyu/features/blob/main/src/aws-cli/devcontainer-feature.json).  Add additional notes to a `NOTES.md`._
